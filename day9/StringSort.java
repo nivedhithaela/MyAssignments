@@ -11,7 +11,7 @@ public class StringSort {
 		//adding elements
 		comp.add("HCL");
 		comp.add("Wipro");
-		comp.add("Aspire Systems");
+		comp.add("AspireSystems");
 		comp.add("CTS");
 		System.out.println("Before Sort"+comp);
 		//size
@@ -20,8 +20,13 @@ public class StringSort {
 		//sort
 		Collections.sort(comp);
 		System.out.println("After Sort"+comp);
-		Collections.reverse(comp);
-		System.out.println("Reverse Order is:"+comp);
+		String rev=" ";
+		System.out.println("Reverse Order is:");
+		for(int i=comp_size-1;i>=0;i--) {
+			rev=rev+" "+comp.get(i);
+			
+		}
+		System.out.println(rev);
 		
 		
 
