@@ -50,6 +50,8 @@ public class LeafTaps {
 		Alert a = driver.switchTo().alert();
 		a.accept();
 		System.out.println(driver.getTitle());
+		//Close Browser
+		driver.close();
 		
 		
 
