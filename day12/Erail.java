@@ -50,7 +50,10 @@ public class Erail {
 			System.out.println("Duplicates found in Train Names");
 		}
 		
+	//Close the browser
+		driver.close();
 	}
+	
 				
 				
 	}
